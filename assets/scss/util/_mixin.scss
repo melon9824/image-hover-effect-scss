@@ -1,0 +1,19 @@
+@use './variables' as *;
+
+@mixin flex-style {
+    display: flex;
+    align-items: center;
+}
+
+@mixin btn-style {
+    font-size: $normal-font-size;
+    color: $white-color;
+    background: $gradient-color-1;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.25rem;
+    transition: .4s ease;
+}
+
+@mixin btn-hover-style {
+    background: $gradient-color-2;
+}

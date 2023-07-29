@@ -1,0 +1,26 @@
+
+$header-height-small: 2.5rem;
+$header-height: 3.5rem;
+$header-height-large: 5rem;
+
+$body-color: #000;
+$main-color: #222;
+$section-color: #333;
+$brand_color-1: #ff4000;
+$brand_color-2: #089DC2;
+$white-color: #f2f2f2;
+$gradient-color-1: linear-gradient(90deg, #Ff4000 0%, #089dc2 100%);
+$gradient-color-2: linear-gradient(90deg, #089dc2 0%, #ff4000 100%);
+
+$normal-font-size: clamp(0.75rem, 0.60rem + 0.86vw, 1.25rem);
+$title-font-size: clamp(1.25rem, 1.03rem + 1.29vw, 2rem);
+
+$font-bold: 700;
+$font-semibold: 600;
+$font-normal: 400;
+$font-thin: 300;
+
+/*
+font-size: 1.25rem;
+font-size: clamp(1.25rem, 1.03rem + 1.29vw, 2rem);
+*/
